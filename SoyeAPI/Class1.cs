@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,13 +11,19 @@ namespace SoyeAPI
     {
         public static string ScriptLocation()
         {
-            string x = @"some folder on a computer somewhere";
+            string textFile = Directory.GetCurrentDirectory() + @"\config\location.txt";
+            string text = File.ReadAllText(textFile);
+
+            string x = Directory.GetCurrentDirectory() + @"\resources\" + text + @"\";
             return x;
         }
 
         public static string BotToken()
         {
-            string x = "put Discord bot token here";
+            string textFile = Directory.GetCurrentDirectory() + @"\config\token.txt";
+            string text = File.ReadAllText(textFile);
+
+            string x = text;
             return x;
         }
     }
