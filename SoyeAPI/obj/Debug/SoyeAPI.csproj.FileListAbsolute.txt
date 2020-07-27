@@ -1,0 +1,6 @@
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\bin\Debug\SoyeAPI.dll
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\bin\Debug\SoyeAPI.pdb
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\obj\Debug\SoyeAPI.csprojAssemblyReference.cache
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\obj\Debug\SoyeAPI.csproj.CoreCompileInputs.cache
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\obj\Debug\SoyeAPI.dll
+E:\VisualStudioRepos\SoyeAPI\SoyeAPI\obj\Debug\SoyeAPI.pdb
